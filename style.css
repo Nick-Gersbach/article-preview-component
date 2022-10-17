@@ -89,12 +89,21 @@ p.social-date {
   height: 30px;
   position: relative;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
-.social-share-img img {
+.social-share-img:hover {
+  background: #6e8098;
+}
+
+.social-share-img svg {
   position: absolute;
   top: 8px;
   left: 8px;
+}
+
+.social-share-img svg:hover #share-icon {
+  fill: #fff;
 }
 
 .social-sharing-container {

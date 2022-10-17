@@ -37,6 +37,7 @@ body {
   font-weight: 700;
   line-height: 28px;
   padding-bottom: 1rem;
+  color: #48556a;
 }
 
 .article-component-text p {
@@ -76,6 +77,7 @@ body {
 .social-avatar-info h4 {
   font-size: 13px;
   font-weight: 700;
+  color: #48556a;
 }
 
 p.social-date {

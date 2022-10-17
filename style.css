@@ -222,14 +222,14 @@ Mobile Phone Portrait
   }
 
   .social-sharing-container {
-    width: 248px;
-    height: 55px;
-    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 10px 10px rgba(201, 213, 225, 0.503415);
     position: absolute;
     z-index: 2;
-    top: 55%;
-    right: -13%;
+    top: 73%;
+    right: 0%;
     display: none;
     /* Fade In Animations */
     -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
@@ -237,5 +237,23 @@ Mobile Phone Portrait
     -ms-animation: fadein 0.5s; /* Internet Explorer */
     -o-animation: fadein 0.5s; /* Opera < 12.1 */
     animation: fadein 0.5s;
+  }
+
+  .social-share-img {
+    background: #ebf2f9;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    z-index: 3;
+  }
+
+  .social-share-img svg {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 3;
   }
 }

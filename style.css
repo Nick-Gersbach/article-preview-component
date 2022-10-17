@@ -21,6 +21,7 @@ body {
   width: 285px;
   height: 300px;
   margin-top: 5px;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .article-component-text {
@@ -28,6 +29,7 @@ body {
   height: 300px;
   padding: 2rem;
   position: relative;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .article-component-text h2 {
@@ -194,6 +196,7 @@ Mobile Phone Portrait
     width: 100%;
     height: auto;
     margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
   }
 
   .article-component-text {
@@ -201,6 +204,7 @@ Mobile Phone Portrait
     height: 360px;
     padding: 2rem;
     margin-top: -5px;
+    border-radius: 0px 0px 10px 10px;
   }
 
   .article-component-text p {
@@ -215,5 +219,23 @@ Mobile Phone Portrait
     align-items: center;
     justify-content: space-between;
     padding-top: 10px;
+  }
+
+  .social-sharing-container {
+    width: 248px;
+    height: 55px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(201, 213, 225, 0.503415);
+    position: absolute;
+    z-index: 2;
+    top: 55%;
+    right: -13%;
+    display: none;
+    /* Fade In Animations */
+    -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 0.5s; /* Firefox < 16 */
+    -ms-animation: fadein 0.5s; /* Internet Explorer */
+    -o-animation: fadein 0.5s; /* Opera < 12.1 */
+    animation: fadein 0.5s;
   }
 }

@@ -41,6 +41,7 @@ body {
   font-weight: 500;
   line-height: 20px;
   padding-bottom: 1rem;
+  color: #6e8098;
 }
 
 .social-info-container {
@@ -92,4 +93,50 @@ p.social-date {
   position: absolute;
   top: 8px;
   left: 8px;
+}
+
+/* 
+
+
+
+Mobile Phone Portrait
+
+
+
+*/
+
+@media only screen and (max-width: 730px) {
+  .article-component-container {
+    margin: 2rem auto 0rem auto;
+    width: 95%;
+    height: 512px;
+    flex-direction: column;
+  }
+
+  .article-component-img img {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+
+  .article-component-text {
+    background: #fff;
+    height: 360px;
+    padding: 2rem;
+    margin-top: -5px;
+  }
+
+  .article-component-text p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 1rem;
+  }
+
+  .social-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
 }
